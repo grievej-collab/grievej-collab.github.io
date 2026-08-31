@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>__SITE_TITLE__</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <span class="site-title">__SITE_TITLE__</span>
+</header>
+
+<main class="page-content">
+  <p class="subtitle">Click any item below to view it. Click a module's title bar to collapse or expand it.</p>
+  <div id="app"><p class="empty-note">Loading&hellip;</p></div>
+</main>
+
+<div id="item-overlay" class="overlay" hidden aria-hidden="true">
+  <div class="overlay__backdrop" data-close></div>
+  <div class="overlay__dialog" role="dialog" aria-modal="true" aria-labelledby="overlay-title">
+    <div class="overlay__header">
+      <h2 id="overlay-title" class="overlay__title"></h2>
+      <button type="button" class="overlay__close" data-close aria-label="Close">&times;</button>
+    </div>
+    <div class="overlay__body"></div>
+  </div>
+</div>
+
+<script id="site-data" type="application/json">__DATA_JSON__</script>
+<script src="app.js"></script>
+</body>
+</html>

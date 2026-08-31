@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course Importer</title>
+<link rel="stylesheet" href="admin.css">
+<style>
+  .imp-wrap { max-width: 780px; margin: 1.5rem auto 4rem; padding: 0 1.5rem; }
+  .imp-step { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1rem 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem; }
+  .imp-step__num { width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .imp-step.done .imp-step__num { background: #0a7d3d; }
+  .imp-step__body { flex: 1; min-width: 0; }
+  .imp-step__body h3 { margin: 0 0 .15rem; font-size: .95rem; }
+  .imp-step__body p { margin: 0; color: var(--muted); font-size: .8rem; overflow-wrap: break-word; }
+  .imp-actions { text-align: center; margin: 1.5rem 0; }
+  .imp-report { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; font-size: .85rem; }
+  .imp-report h3 { margin-top: 0; }
+  .imp-report ul { margin: .4rem 0; padding-left: 1.4rem; }
+  progress { width: 100%; height: 10px; }
+</style>
+</head>
+<body>
+<header class="admin-header">
+  <h1>Course Importer <span style="font-weight:400;color:var(--muted);font-size:.85rem">Canvas .imscc &rarr; course site project</span></h1>
+  <div class="admin-actions">
+    <span id="status" class="status">Ready</span>
+    <a class="btn" href="index.html">Back to Admin</a>
+  </div>
+</header>
+<p class="hint">
+  This converts a Canvas course export (<code>.imscc</code>) into a new project folder that the
+  <strong>admin tool</strong> can manage: modules and items in <code>data/structure.json</code>, all
+  media in <code>media/</code>. Everything runs locally in your browser (Chrome or Edge) &mdash;
+  nothing is uploaded anywhere. Before you start, create a new empty folder for the course and copy
+  the <code>admin</code> folder into it from an existing course project (or use step 3 below to do
+  the copy for you).
+</p>
+
+<div class="imp-wrap">
+  <div class="imp-step" id="step-file">
+    <span class="imp-step__num">1</span>
+    <div class="imp-step__body">
+      <h3>Canvas export file</h3>
+      <p id="file-info">No file selected.</p>
+    </div>
+    <button id="btn-file" class="btn btn--primary" type="button">Choose .imscc&hellip;</button>
+  </div>
+
+  <div class="imp-step" id="step-dest">
+    <span class="imp-step__num">2</span>
+    <div class="imp-step__body">
+      <h3>Destination project folder</h3>
+      <p id="dest-info">No folder selected. Pick the new course folder (it should be empty, or contain only the copied <code>admin</code> folder).</p>
+    </div>
+    <button id="btn-dest" class="btn btn--primary" type="button">Choose folder&hellip;</button>
+  </div>
+
+  <div class="imp-step" id="step-admin">
+    <span class="imp-step__num">3</span>
+    <div class="imp-step__body">
+      <h3>Copy admin tool <span style="color:var(--muted);font-weight:400">(optional)</span></h3>
+      <p id="admin-info">If the destination doesn't have an <code>admin</code> folder yet, pick an existing course project folder here and its admin tool will be copied over.</p>
+    </div>
+    <button id="btn-admin" class="btn" type="button">Copy from&hellip;</button>
+  </div>
+
+  <div class="imp-actions">
+    <button id="btn-convert" class="btn btn--primary" type="button" disabled style="font-size:1rem;padding:.7rem 2rem">Convert course</button>
+    <div style="margin-top:.8rem"><progress id="progress" value="0" max="100" hidden></progress></div>
+  </div>
+
+  <div class="imp-report" id="report" hidden></div>
+</div>
+<pre id="log" class="log" hidden></pre>
+
+<script src="import.js"></script>
+</body>
+</html>

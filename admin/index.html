@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course Admin</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header class="admin-header">
+  <h1>Course Structure Admin</h1>
+  <div class="admin-actions">
+    <span id="status" class="status">Not connected</span>
+    <button id="btn-open" class="btn btn--primary" type="button">Open Project Folder&hellip;</button>
+    <button id="btn-save" class="btn" type="button" disabled>Save changes</button>
+    <button id="btn-rebuild" class="btn btn--primary" type="button" disabled>Rebuild published site</button>
+  </div>
+</header>
+<p class="hint" id="hint">
+  This tool runs entirely in your browser -- nothing is uploaded anywhere. Click
+  <strong>Open Project Folder</strong> and select the course project folder (the one containing
+  <code>data</code>, <code>media</code>, <code>admin</code>, and <code>publish</code>). Requires
+  Chrome or Edge (Firefox and Safari don't support the local file access this tool needs).
+  Drag to rearrange; click the &#9998; on an item to edit its content; hover a row for
+  duplicate / delete buttons. Have another course as a Canvas export? Use the
+  <a href="import.html">Course Importer</a> to turn a <code>.imscc</code> into a new project folder.
+</p>
+<div id="course-bar" class="course-bar" hidden>
+  <label for="course-title"><strong>Course title:</strong></label>
+  <input id="course-title" type="text" spellcheck="false">
+  <span class="course-bar__note">shown as the header and browser-tab title on the published site</span>
+</div>
+<div id="board" class="board"></div>
+<pre id="log" class="log" hidden></pre>
+
+<!-- ============ content editor overlay ============ -->
+<div id="ed-overlay" class="ed-overlay" hidden>
+  <div class="ed-backdrop"></div>
+  <div class="ed-dialog">
+    <div class="ed-head">
+      <input id="ed-title" class="ed-title" type="text" placeholder="Item title" spellcheck="false">
+      <span id="ed-kind" class="item-kind"></span>
+      <button id="ed-html-toggle" class="btn" type="button" title="Switch between visual editing and raw HTML">&lt;/&gt; HTML</button>
+    </div>
+    <div class="ed-toolbar" id="ed-toolbar">
+      <button type="button" data-cmd="undo" title="Undo (Ctrl+Z)">&#8630;</button>
+      <button type="button" data-cmd="redo" title="Redo (Ctrl+Y)">&#8631;</button>
+      <span class="ed-sep"></span>
+      <select id="ed-block" title="Paragraph style">
+        <option value="">Style</option>
+        <option value="P">Paragraph</option>
+        <option value="H2">Heading 2</option>
+        <option value="H3">Heading 3</option>
+        <option value="H4">Heading 4</option>
+        <option value="PRE">Code block</option>
+        <option value="BLOCKQUOTE">Quote</option>
+      </select>
+      <select id="ed-font" title="Typeface">
+        <option value="">Font</option>
+        <option value="inherit">(default)</option>
+        <option value="Arial, Helvetica, sans-serif" style="font-family: Arial, Helvetica, sans-serif;">Arial</option>
+        <option value="Verdana, Geneva, sans-serif" style="font-family: Verdana, Geneva, sans-serif;">Verdana</option>
+        <option value="'Trebuchet MS', sans-serif" style="font-family: 'Trebuchet MS', sans-serif;">Trebuchet MS</option>
+        <option value="Georgia, serif" style="font-family: Georgia, serif;">Georgia</option>
+        <option value="'Times New Roman', Times, serif" style="font-family: 'Times New Roman', Times, serif;">Times New Roman</option>
+        <option value="'Courier New', Courier, monospace" style="font-family: 'Courier New', Courier, monospace;">Courier New</option>
+        <option value="'Comic Sans MS', cursive" style="font-family: 'Comic Sans MS', cursive;">Comic Sans MS</option>
+      </select>
+      <select id="ed-size" title="Text size">
+        <option value="">Size</option>
+        <option value="inherit">(default)</option>
+        <option value="8pt">8 pt</option>
+        <option value="10pt">10 pt</option>
+        <option value="12pt">12 pt</option>
+        <option value="14pt">14 pt</option>
+        <option value="18pt">18 pt</option>
+        <option value="24pt">24 pt</option>
+        <option value="36pt">36 pt</option>
+      </select>
+      <span class="ed-sep"></span>
+      <button type="button" data-cmd="bold" title="Bold (Ctrl+B)"><b>B</b></button>
+      <button type="button" data-cmd="italic" title="Italic (Ctrl+I)"><i>I</i></button>
+      <button type="button" data-cmd="underline" title="Underline (Ctrl+U)"><u>U</u></button>
+      <button type="button" data-cmd="strikeThrough" title="Strikethrough"><s>S</s></button>
+      <button type="button" data-cmd="inlinecode" title="Wrap selection in inline code">&lt;/&gt;</button>
+      <button type="button" data-cmd="removeFormat" title="Clear formatting">T&#10799;</button>
+      <span class="ed-sep"></span>
+      <button type="button" data-cmd="insertUnorderedList" title="Bulleted list">&bull; List</button>
+      <button type="button" data-cmd="insertOrderedList" title="Numbered list">1. List</button>
+      <button type="button" data-cmd="outdent" title="Decrease indent">&#8676;</button>
+      <button type="button" data-cmd="indent" title="Increase indent">&#8677;</button>
+      <span class="ed-sep"></span>
+      <button type="button" data-cmd="link" title="Insert link">&#128279;</button>
+      <button type="button" data-cmd="unlink" title="Remove link">Unlink</button>
+      <button type="button" data-cmd="image" title="Insert image from the media library">&#128444;</button>
+      <button type="button" data-cmd="table" title="Insert table">&#8862;</button>
+      <button type="button" data-cmd="insertHorizontalRule" title="Horizontal line">&#8213;</button>
+    </div>
+    <div id="ed-visual" class="ed-visual" contenteditable="true" spellcheck="false"></div>
+    <textarea id="ed-html" class="ed-html" hidden spellcheck="false"></textarea>
+    <div id="ed-imgtool" class="ed-float" hidden>
+      <label>Width <input id="imgtool-w" type="number" min="10" max="3000"> px</label>
+      <button type="button" data-imgpct="25">25%</button>
+      <button type="button" data-imgpct="50">50%</button>
+      <button type="button" data-imgpct="100">100%</button>
+      <button type="button" id="imgtool-reset" title="Back to the image's natural size">Reset</button>
+    </div>
+    <div id="ed-tbltool" class="ed-float" hidden>
+      <label>Table width <input id="tbltool-w" type="text" placeholder="600 or 80%"></label>
+      <button type="button" id="tbltool-100">100%</button>
+      <button type="button" id="tbltool-auto">Auto</button>
+      <button type="button" id="tbltool-clear" title="Remove every width setting from this table and its cells">Clear sizes</button>
+      <span class="ed-float__hint">Tip: drag a cell's right border to resize columns</span>
+    </div>
+    <div class="ed-foot">
+      <span class="ed-hint">Tip: paste or drag images straight into the editor &mdash; they're saved into the media folder automatically.</span>
+      <button id="ed-cancel" class="btn" type="button">Cancel</button>
+      <button id="ed-apply" class="btn btn--primary" type="button">Apply</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ media picker overlay ============ -->
+<div id="mp-overlay" class="mp-overlay" hidden>
+  <div class="mp-backdrop"></div>
+  <div class="mp-dialog">
+    <div class="mp-head">
+      <strong>Insert image</strong>
+      <input id="mp-filter" type="text" placeholder="Filter by file name&hellip;" spellcheck="false">
+      <button id="mp-upload" class="btn" type="button" title="Copy a new image into the media folder">Upload new&hellip;</button>
+      <button id="mp-close" class="btn" type="button">Cancel</button>
+    </div>
+    <div id="mp-grid" class="mp-grid"></div>
+  </div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
