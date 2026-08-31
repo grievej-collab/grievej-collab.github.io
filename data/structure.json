@@ -142,7 +142,7 @@
    "slug": "03-scratch-presentations",
    "title": "Scratch Presentations",
    "order": 3,
-   "published": false,
+   "published": true,
    "items": [
     {
      "id": "gefa27eaddf6ed7d7cf647fe640f49387",
@@ -150,7 +150,7 @@
      "title": "Scratch Environment and Problem Solving",
      "nav_title": "Scratch Environment and Problem Solving",
      "position": 1,
-     "published": true,
+     "published": false,
      "content_html": "<iframe src=\"https://docs.google.com/presentation/d/1h1kareIz2HPio5z1AHoqVAen3pp8zlx0Q4YoVPjZuzk/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>\n\n"
     },
     {
@@ -197,6 +197,14 @@
      "position": 6,
      "published": false,
      "content_html": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQ6LQKnFaMMW2TGtBa4PAkWSAhmEDO2Q3li4FWln0_ig5EVpU13b9eRO3av9QzzRo0Y2R8eIwB54L63/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>\n\n"
+    },
+    {
+     "id": "g39fd0f60318d47dc8b7ab33bb31551df",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Test Upload",
+     "published": true,
+     "content_html": "Sept 1&nbsp;<p></p><p>https://scratch.mit.edu/projects/editor/?tutorial=getStarted</p>"
     }
    ]
   },
