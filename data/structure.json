@@ -114,7 +114,7 @@
      "title": "Coding Bat (Practice Challenges)",
      "nav_title": "Coding Bat (Practice Challenges)",
      "position": 6,
-     "published": true,
+     "published": false,
      "external_url": "https://codingbat.com/python"
     },
     {
@@ -142,7 +142,7 @@
    "slug": "03-scratch-presentations",
    "title": "Scratch Presentations",
    "order": 3,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "gefa27eaddf6ed7d7cf647fe640f49387",
@@ -159,7 +159,7 @@
      "title": "Broadcasts: Code-Driven Events",
      "nav_title": "Broadcasts: Code-Driven Events",
      "position": 2,
-     "published": true,
+     "published": false,
      "content_html": "<p><iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTC4f3h_jIHjVho5fzK0w4WyRMAMg6pt_AFoMKnBts4vqLBvua6BbgcfkN4BczFYgPj5TgxGNMBY3Nx/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"960\" height=\"569\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -168,7 +168,7 @@
      "title": "Decision Making and Repeating Structures",
      "nav_title": "Decision Making and Repeating Structures",
      "position": 3,
-     "published": true,
+     "published": false,
      "content_html": "<iframe src=\"https://docs.google.com/presentation/d/1YuTFR_l0MJGR2ZD04QWhsULujAVp0Tmd2RtA2Odv9-g/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>\n\n"
     },
     {
@@ -177,7 +177,7 @@
      "title": "Variables and Data",
      "nav_title": "Variables and Data",
      "position": 4,
-     "published": true,
+     "published": false,
      "content_html": "<p><iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQbWUm28rIuwCt0nmw1z0nyERg2GbLlaSsi6uoE1bIlUu6kb9hv5I4im4JaQhGPL6qLDSY4NrkPs2r3/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"960\" height=\"569\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -186,7 +186,7 @@
      "title": "Flow Charts",
      "nav_title": "Flow Charts",
      "position": 5,
-     "published": true,
+     "published": false,
      "content_html": "<p><iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vS-7HBBDjWRoZrNsJVhiI6aMYxX1BnA4aeMcUyeugLn5svZFzrOYYbJYjQDg0qKssxdZOwnrcm1fZbp/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"960\" height=\"569\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
