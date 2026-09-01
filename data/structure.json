@@ -69,7 +69,7 @@
      "title": "**** End of Semester Calendar ****",
      "nav_title": "**** End of Semester Calendar ****",
      "position": 1,
-     "published": false,
+     "published": true,
      "content_html": "<p><img src=\"media/web_resources/Uploaded-Media/CS20-June-Calendar.png\" alt=\"CS20 - June Calendar.png\" loading=\"lazy\"></p>\n\n"
     },
     {
@@ -87,7 +87,7 @@
      "title": "Open Textbook (cs20.ca)",
      "nav_title": "Open Textbook (cs20.ca)",
      "position": 3,
-     "published": false,
+     "published": true,
      "external_url": "https://cs20.ca"
     },
     {
@@ -114,7 +114,7 @@
      "title": "Coding Bat (Practice Challenges)",
      "nav_title": "Coding Bat (Practice Challenges)",
      "position": 6,
-     "published": false,
+     "published": true,
      "external_url": "https://codingbat.com/python"
     },
     {
@@ -134,6 +134,13 @@
      "position": 8,
      "published": false,
      "external_url": "https://thonny.org/"
+    },
+    {
+     "id": "g4f435305b4a245c1b36dba31af562ca7",
+     "kind": "divider",
+     "title": "New Section",
+     "nav_title": "Test",
+     "published": true
     }
    ]
   },
