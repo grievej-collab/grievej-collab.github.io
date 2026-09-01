@@ -95,7 +95,7 @@
      "title": "Open Textbook (cs20.ca)",
      "nav_title": "Open Textbook (cs20.ca)",
      "position": 3,
-     "published": false,
+     "published": true,
      "external_url": "https://cs20.ca"
     },
     {
@@ -211,7 +211,7 @@
      "kind": "page",
      "title": "New Page",
      "nav_title": "Test Upload",
-     "published": true,
+     "published": false,
      "content_html": "Sept 1&nbsp;<p></p><p>https://scratch.mit.edu/projects/editor/?tutorial=getStarted</p>"
     }
    ]
