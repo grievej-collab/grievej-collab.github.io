@@ -33,7 +33,7 @@
      "title": "\"About You\" Form",
      "nav_title": "\"About You\" Form",
      "position": 3,
-     "published": true,
+     "published": false,
      "content_html": "<p><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSegaIl3focUOhDIU2Z-i2d3DQUKVy0K6PmfbZacE_JIu9_ziQ/viewform?embedded=true\" width=\"840\" height=\"962\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -53,6 +53,14 @@
      "position": 5,
      "published": false,
      "content_html": "<p><span style=\"font-size: 18pt;\"><strong>If you've never used Canvas</strong>, go here:</span><br><span style=\"font-size: 18pt;\">canvas.instructure.com/register</span><br><span style=\"font-size: 18pt;\">join code: <strong>CWFNBG</strong></span></p>\n<p><span style=\"font-size: 18pt;\">&nbsp;</span></p>\n<p><span style=\"font-size: 18pt;\"><strong>If you already have an account, sign in, then go here:</strong></span><br><span style=\"font-size: 18pt;\">https://canvas.instructure.com/enroll/CWFNBG</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 18pt;\">Shortened login URL:&nbsp; <a class=\"inline_disabled\" href=\"http://bit.ly/canvas-cent\" target=\"_blank\">bit.ly/canvas-cent</a></span></p>\n<p>&nbsp;</p>\n\n"
+    },
+    {
+     "id": "g79c7e984db424d37947097ea62c97257",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "\"About You\" Form",
+     "published": true,
+     "content_html": "<a href=\"https://forms.gle/jyCKZMsENCsFDdrCA\">https://forms.gle/jyCKZMsENCsFDdrCA</a><p></p>"
     }
    ]
   },
