@@ -150,7 +150,7 @@
      "title": "Scratch Environment and Problem Solving",
      "nav_title": "Scratch Environment and Problem Solving",
      "position": 1,
-     "published": false,
+     "published": true,
      "content_html": "<iframe src=\"https://docs.google.com/presentation/d/1h1kareIz2HPio5z1AHoqVAen3pp8zlx0Q4YoVPjZuzk/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>\n\n"
     },
     {
@@ -213,7 +213,7 @@
    "slug": "04-scratch-01-visual-programming-and-problem-solving",
    "title": "Scratch 01:  Visual Programming and Problem-Solving",
    "order": 4,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "g19b772f0930e01ce379854a4d39d0b98",
@@ -267,7 +267,7 @@
    "slug": "05-scratch-02-decision-making-and-repetition",
    "title": "Scratch 02: Decision-Making and Repetition",
    "order": 5,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "g46d23a5db0236ffac985e661c5235cb3",
@@ -366,7 +366,7 @@
    "slug": "06-scratch-03-variables",
    "title": "Scratch 03: Variables",
    "order": 6,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "g2aeb170361fa163c3ccbf285f5b78c6f",
@@ -465,7 +465,7 @@
    "slug": "07-scratch-04-major-project",
    "title": "Scratch 04: Major Project",
    "order": 7,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "divider-07-scratch-04-major-project-1",
@@ -527,7 +527,7 @@
    "slug": "08-reeborg-constrained-language",
    "title": "Reeborg: Constrained Language",
    "order": 8,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "gbbe1e448745c6c8ec1d75c6d14ceacdd",
@@ -608,7 +608,7 @@
    "slug": "09-python-presentations",
    "title": "Python Presentations",
    "order": 9,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "g2a1781e965396e2348fb4b6096e527ab",
@@ -644,7 +644,7 @@
    "slug": "10-python-basics",
    "title": "Python - Basics",
    "order": 10,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "gc1cd7456956399c1d3fd4cd5f0b31823",
@@ -734,7 +734,7 @@
    "slug": "11-python-turtle-and-micro-bit",
    "title": "Python - Turtle and Micro:bit",
    "order": 11,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "g32012ea94cbab7b028c810a77873d2c7",
