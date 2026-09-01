@@ -43,7 +43,7 @@
      "nav_title": "Sign up for Scratch!",
      "position": 4,
      "published": true,
-     "external_url": "https://scratch.mit.edu/signup/3jywhjmxn"
+     "external_url": "https://scratch.mit.edu/signup/fv3kfnfpf"
     },
     {
      "id": "g3b429bb770b211b02804e713a442ec9d",
@@ -61,7 +61,7 @@
    "slug": "02-main-course-links",
    "title": "Main Course Links",
    "order": 2,
-   "published": false,
+   "published": true,
    "items": [
     {
      "id": "gc12d50b80ed26f94b07cc76ffe850127",
@@ -69,7 +69,7 @@
      "title": "**** End of Semester Calendar ****",
      "nav_title": "**** End of Semester Calendar ****",
      "position": 1,
-     "published": true,
+     "published": false,
      "content_html": "<p><img src=\"media/web_resources/Uploaded-Media/CS20-June-Calendar.png\" alt=\"CS20 - June Calendar.png\" loading=\"lazy\"></p>\n\n"
     },
     {
@@ -87,7 +87,7 @@
      "title": "Open Textbook (cs20.ca)",
      "nav_title": "Open Textbook (cs20.ca)",
      "position": 3,
-     "published": true,
+     "published": false,
      "external_url": "https://cs20.ca"
     },
     {
@@ -114,7 +114,7 @@
      "title": "Coding Bat (Practice Challenges)",
      "nav_title": "Coding Bat (Practice Challenges)",
      "position": 6,
-     "published": true,
+     "published": false,
      "external_url": "https://codingbat.com/python"
     },
     {
@@ -134,13 +134,6 @@
      "position": 8,
      "published": false,
      "external_url": "https://thonny.org/"
-    },
-    {
-     "id": "g4f435305b4a245c1b36dba31af562ca7",
-     "kind": "divider",
-     "title": "New Section",
-     "nav_title": "Test",
-     "published": true
     }
    ]
   },
