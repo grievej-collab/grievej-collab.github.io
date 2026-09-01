@@ -61,6 +61,14 @@
      "nav_title": "\"About You\" Form",
      "published": true,
      "content_html": "<a href=\"https://forms.gle/jyCKZMsENCsFDdrCA\">https://forms.gle/jyCKZMsENCsFDdrCA</a><p></p>"
+    },
+    {
+     "id": "g6b739211be184e3fa63fa6debc726b28",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Comp Sci Course Outline",
+     "published": true,
+     "content_html": "<a href=\"https://docs.google.com/document/d/1CoXU-2cUf1x6QSyw7NWxdjBsppZTFHzrUzIF_fkNc_U/copy\">https://docs.google.com/document/d/1CoXU-2cUf1x6QSyw7NWxdjBsppZTFHzrUzIF_fkNc_U/copy</a><p></p>"
     }
    ]
   },
