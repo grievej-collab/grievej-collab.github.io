@@ -61,7 +61,7 @@
    "slug": "02-main-course-links",
    "title": "Main Course Links",
    "order": 2,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "gc12d50b80ed26f94b07cc76ffe850127",
