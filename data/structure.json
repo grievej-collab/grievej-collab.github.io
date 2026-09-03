@@ -15,7 +15,7 @@
      "title": "Computer Science 20 Course Outline.docx",
      "nav_title": "Computer Science 20 Course Outline.docx",
      "position": 1,
-     "published": false,
+     "published": true,
      "media_path": "media/web_resources/Computer-Science-20-Course-Outline.docx"
     },
     {
@@ -33,7 +33,7 @@
      "title": "\"About You\" Form",
      "nav_title": "\"About You\" Form",
      "position": 3,
-     "published": false,
+     "published": true,
      "content_html": "<p><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSegaIl3focUOhDIU2Z-i2d3DQUKVy0K6PmfbZacE_JIu9_ziQ/viewform?embedded=true\" width=\"840\" height=\"962\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -43,7 +43,7 @@
      "nav_title": "Sign up for Scratch!",
      "position": 4,
      "published": true,
-     "external_url": "https://scratch.mit.edu/signup/fv3kfnfpf"
+     "external_url": "https://scratch.mit.edu/signup/3jywhjmxn"
     },
     {
      "id": "g3b429bb770b211b02804e713a442ec9d",
@@ -53,22 +53,6 @@
      "position": 5,
      "published": false,
      "content_html": "<p><span style=\"font-size: 18pt;\"><strong>If you've never used Canvas</strong>, go here:</span><br><span style=\"font-size: 18pt;\">canvas.instructure.com/register</span><br><span style=\"font-size: 18pt;\">join code: <strong>CWFNBG</strong></span></p>\n<p><span style=\"font-size: 18pt;\">&nbsp;</span></p>\n<p><span style=\"font-size: 18pt;\"><strong>If you already have an account, sign in, then go here:</strong></span><br><span style=\"font-size: 18pt;\">https://canvas.instructure.com/enroll/CWFNBG</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 18pt;\">Shortened login URL:&nbsp; <a class=\"inline_disabled\" href=\"http://bit.ly/canvas-cent\" target=\"_blank\">bit.ly/canvas-cent</a></span></p>\n<p>&nbsp;</p>\n\n"
-    },
-    {
-     "id": "g79c7e984db424d37947097ea62c97257",
-     "kind": "page",
-     "title": "New Page",
-     "nav_title": "\"About You\" Form",
-     "published": true,
-     "content_html": "<a href=\"https://forms.gle/jyCKZMsENCsFDdrCA\">https://forms.gle/jyCKZMsENCsFDdrCA</a><p></p>"
-    },
-    {
-     "id": "g6b739211be184e3fa63fa6debc726b28",
-     "kind": "page",
-     "title": "New Page",
-     "nav_title": "Comp Sci Course Outline",
-     "published": true,
-     "content_html": "<a href=\"https://docs.google.com/document/d/1CoXU-2cUf1x6QSyw7NWxdjBsppZTFHzrUzIF_fkNc_U/copy\">https://docs.google.com/document/d/1CoXU-2cUf1x6QSyw7NWxdjBsppZTFHzrUzIF_fkNc_U/copy</a><p></p>"
     }
    ]
   },
@@ -77,7 +61,7 @@
    "slug": "02-main-course-links",
    "title": "Main Course Links",
    "order": 2,
-   "published": true,
+   "published": false,
    "items": [
     {
      "id": "gc12d50b80ed26f94b07cc76ffe850127",
@@ -85,7 +69,7 @@
      "title": "**** End of Semester Calendar ****",
      "nav_title": "**** End of Semester Calendar ****",
      "position": 1,
-     "published": false,
+     "published": true,
      "content_html": "<p><img src=\"media/web_resources/Uploaded-Media/CS20-June-Calendar.png\" alt=\"CS20 - June Calendar.png\" loading=\"lazy\"></p>\n\n"
     },
     {
@@ -121,7 +105,7 @@
      "title": "Sign up for Digitized",
      "nav_title": "Sign up for Digitized",
      "position": 5,
-     "published": false,
+     "published": true,
      "content_html": "<p><span style=\"font-size: 14pt;\">Date: May 1, 2026</span><br><br></p>\n<p><span style=\"font-size: 14pt;\">Details: <a href=\"https://digitized.usask.ca/\">https://digitized.usask.ca/</a></span><br><br></p>\n<p><span style=\"font-size: 14pt;\">Register Here: <a href=\"https://forms.gle/d3DcjcoyaRtGNHTq5\">https://forms.gle/d3DcjcoyaRtGNHTq5</a></span></p>\n<ul>\n<li><span style=\"font-size: 14pt;\">In form, select&nbsp;<strong>\"With my teacher as part of a class\"</strong></span></li>\n<li><span style=\"font-size: 14pt;\">Pick 1st and 2nd choice for sessions</span></li>\n</ul>\n\n"
     },
     {
@@ -130,7 +114,7 @@
      "title": "Coding Bat (Practice Challenges)",
      "nav_title": "Coding Bat (Practice Challenges)",
      "position": 6,
-     "published": false,
+     "published": true,
      "external_url": "https://codingbat.com/python"
     },
     {
@@ -150,6 +134,13 @@
      "position": 8,
      "published": false,
      "external_url": "https://thonny.org/"
+    },
+    {
+     "id": "g4f435305b4a245c1b36dba31af562ca7",
+     "kind": "divider",
+     "title": "New Section",
+     "nav_title": "Test",
+     "published": true
     }
    ]
   },
@@ -219,7 +210,7 @@
      "kind": "page",
      "title": "New Page",
      "nav_title": "Test Upload",
-     "published": false,
+     "published": true,
      "content_html": "Sept 1&nbsp;<p></p><p>https://scratch.mit.edu/projects/editor/?tutorial=getStarted</p>"
     }
    ]
@@ -229,7 +220,7 @@
    "slug": "04-scratch-01-visual-programming-and-problem-solving",
    "title": "Scratch 01:  Visual Programming and Problem-Solving",
    "order": 4,
-   "published": false,
+   "published": true,
    "items": [
     {
      "id": "g19b772f0930e01ce379854a4d39d0b98",
@@ -237,7 +228,7 @@
      "title": "Scratch Environment and Problem Solving.pptx",
      "nav_title": "Scratch Environment and Problem Solving.pptx",
      "position": 1,
-     "published": false,
+     "published": true,
      "media_path": "media/web_resources/Scratch-Environment-and-Problem-Solving.pptx"
     },
     {
@@ -246,7 +237,7 @@
      "title": "Practice Quiz One:  Stage, Broadcasts, Sounds",
      "nav_title": "Practice Quiz One:  Stage, Broadcasts, Sounds",
      "position": 2,
-     "published": true,
+     "published": false,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 6.0</span></div><p>This practice quiz is connected to our first few days of class, and will help prepare you for the first graded quiz!</p><div class=\"qz-questions\">\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Stage</h3>\n<div class=\"qz-qtext\"><div>\n<p><span>Assuming a stage width of </span><span>4</span><span>8</span><span>0</span><span> and a stage height of </span><span>3</span><span>6</span><span>0</span><span>,</span><span> what is the current y-position of Scratch?</span></p>\n<p><span><img src=\"https://sps.blackboard.com/bbcswebdav/xid-1294534_1\" alt=\"\" width=\"324\" height=\"269\" loading=\"lazy\"></span></p>\n<p><img src=\"media/web_resources/W01-Q-04-.JPG\" alt=\"Stage Question\" loading=\"lazy\"></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> 90</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 0</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 360</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> -180</li>\n</ul>\n</div>\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Stage</h3>\n<div class=\"qz-qtext\"><div>\n<p><span>Assuming a stage width of 480 and a stage height of 360, what is the current </span><strong>x-position</strong><span> of Scratch?</span></p>\n<p><img src=\"media/web_resources/assessment_questions/W01-Q-06.JPG\" alt=\"\" data-decorative=\"true\" loading=\"lazy\"></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> 240</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 480</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> -120</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 0</li>\n</ul>\n</div>\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Question</h3>\n<div class=\"qz-qtext\"><div>\n<p>What type of program behavior would you expect to happen when the following script is manually activated?</p>\n<p><img src=\"media/web_resources/assessment_questions/if.JPG\" alt=\"if.JPG\" width=\"299\" height=\"195\" loading=\"lazy\"></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> Short movement by sprite and a possible rotation.</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Sprite will move back and forth across the screen.</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Sprite will move across screen and turn 90 to the right each time it hits a wall.</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> No action</li>\n</ul>\n</div>\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Broadcast Events</h3>\n<div class=\"qz-qtext\"><div>\n<p>Predict the behavior of the following scripts when the green flag is clicked.</p>\n<p><img src=\"media/web_resources/Scratch-Q01P-01.PNG\" alt=\"\" width=\"581\" height=\"373\" data-decorative=\"true\" loading=\"lazy\"></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> The sprite will say &quot;Beta&quot; followed by &quot;Charlie&quot;</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> The sprite will say &quot;Alpha&quot;, followed by &quot;Beta&quot;, followed by &quot;Charlie&quot;</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> The sprite will say &quot;Charlie&quot; only</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> The sprite will say &quot;Beta&quot; only</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> The sprite will say &quot;Alpha&quot; only</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> The sprite will continuously say &quot;Alpha&quot;, &quot;Beta&quot;, &quot;Charlie&quot; over and over forever.</li>\n</ul>\n</div>\n</div>"
     },
     {
@@ -255,7 +246,7 @@
      "title": "Scratch Artist",
      "nav_title": "Scratch Artist",
      "position": 3,
-     "published": true,
+     "published": false,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 10.0</span> &middot; <span class=\"meta-submission\"><strong>Submission type:</strong> online upload</span> &middot; <span class=\"meta-ext\"><strong>Allowed file types:</strong> sb3</span></div><p dir=\"ltr\"><img src=\"media/web_resources/Uploaded-Media/artist.PNG\" alt=\"artist.PNG\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/10266881/files/268938327\" data-api-returntype=\"File\" loading=\"lazy\"></p>\n<p dir=\"ltr\">This will add all of the pen blocks that you’ll need for this project.</p>\n<p><br><br></p>\n<p dir=\"ltr\"><span style=\"font-size: 18pt;\"><strong>Base Feature Requirements</strong></span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><i>Completing the following basic features will allow for a maximum grade of 9/10. The remaining Challenge Features will account for the remaining 1 mark.</i></p>\n<p>&nbsp;</p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Create a program that features one sprite (choose any that you want). When the green flag is pressed, this sprite should begin at the origin (0,0), and choose a random direction to move automatically<br><br></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">As it moves, it should use the pen to draw a trail of its motion.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Whenever an edge of the stage is encountered, the sprite should bounce.</p>\n</li>\n<li dir=\"ltr\">Movement must use the&nbsp;<strong>move</strong><strong> block.</strong>&nbsp; No <span style=\"text-decoration: underline;\">glides</span> or <span style=\"text-decoration: underline;\">goto</span> blocks for this feature.</li>\n</ul>\n<br>\n<p>&nbsp;</p>\n</li>\n</ol>\n<ol start=\"2\">\n<li dir=\"ltr\">\n<p dir=\"ltr\">This project should include both<span>&nbsp;</span><strong>background<span>&nbsp;</span></strong><strong>music<span>&nbsp;</span></strong>as well as<span>&nbsp;</span><strong>sound<span>&nbsp;</span></strong><strong>effects</strong>.<br><br></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When the green flag is pressed, start some background music. This should play continually until the user stops the program.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Have a sound effect play whenever the sprite bounces on the edges of the stage<br>&nbsp; &nbsp; &nbsp; <span style=\"color: #e03e2d;\">HINT:</span>&nbsp; &nbsp;<span style=\"color: #7e8c8d;\">The <img src=\"media/web_resources/Uploaded-Media/Scratch-If-on-edge-bounce.PNG\" alt=\"Scratch - If on edge bounce.PNG\" width=\"127\" height=\"53\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/10266881/files/269192261\" data-api-returntype=\"File\" loading=\"lazy\"> is needed, but you have your program handle the sound effect&nbsp;<strong>first.</strong> This is because the \"bounce\" action spins the character and often they will no longer be touching the edge. Use <img src=\"media/web_resources/Uploaded-Media/Scratch-If-touching-edge.PNG\" alt=\"Scratch - If touching edge.PNG\" width=\"214\" height=\"87\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/10266881/files/269192398\" data-api-returntype=\"File\" loading=\"lazy\"> to help with adding a sound effect each time the sprite runs into the edge of the stage.</span></p>\n</li>\n</ul>\n<br>\n<p>&nbsp;</p>\n</li>\n</ol>\n<ol start=\"3\">\n<li dir=\"ltr\">\n<p dir=\"ltr\">Allow the pen characteristics to be modified by the user as follows:<br><br></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The<strong><span>&nbsp;</span>Z key</strong><span>&nbsp;</span>will decrease the size of the pen</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The<strong><span>&nbsp;</span>X key</strong><span>&nbsp;</span>will increase the size of the pen</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The<strong><span>&nbsp;</span>C key</strong><span>&nbsp;</span>will change the colour of the pen</p>\n</li>\n<li>The<strong><span>&nbsp;</span>R key</strong><span>&nbsp;</span>will reset the drawing (erase all)</li>\n</ul>\n<br>\n<p>&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span style=\"font-size: 18pt;\"><strong>Challenge Features</strong></span><br><br></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Add a second sprite into the sketch, whose<span>&nbsp;</span><strong>movement will be controlled by the user</strong>.</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Use the four arrow keys ( &nbsp;↑ ← ↓ → ) to control the sprite’s x-position and y-position.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Use pen commands to make this sprite draw a line wherever it moves</p>\n</li>\n</ul>\n<p>&nbsp;</p>\n</li>\n<li>Allow this sprite’s <strong>pen size</strong> and <strong>pen colour </strong>to be changed whenever this sprite touches the other (bouncing) sprite, according to the following scheme:\n<ul>\n<li>If the user-controlled sprite is on the left half of the screen:\n<ul>\n<li>Change the pen size by 2</li>\n</ul>\n</li>\n<li>If the user-controlled sprite is on the right half of the screen:\n<ul>\n<li>Change the pen colour by 10</li>\n</ul>\n</li>\n</ul>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p dir=\"ltr\">&nbsp;</p>\n\n"
     },
     {
@@ -264,7 +255,7 @@
      "title": "Make an Interactive Short Story",
      "nav_title": "Make an Interactive Short Story",
      "position": 4,
-     "published": true,
+     "published": false,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 5.0</span> &middot; <span class=\"meta-submission\"><strong>Submission type:</strong> online upload</span> &middot; <span class=\"meta-ext\"><strong>Allowed file types:</strong> sb3,zip</span></div><p>To experiment with <i>creating your own events</i> <i>with broadcasts and taking user inpu</i><i>t</i>, create an interactive short story or play. Create characters, experiment with moving sprites around the stage – it’s up to you!</p>\n<p><strong><img src=\"media/web_resources/Uploaded-Media/Interactive-A2-01.PNG\" alt=\"Interactive A2 - 01.PNG\" width=\"708\" height=\"252\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/242887403\" data-api-returntype=\"File\" loading=\"lazy\"><br></strong></p>\n<p><strong>Base Features<br></strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Within your story, you must include the following components:</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">At least one Backdrop</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">At least two characters</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">At least<strong> five broadcast statements</strong></p>\n</li>\n</ul>\n<p><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">Broadcasts must be named appropriately (“bear appears” rather than “message1\")<br><br></span></p>\n</li>\n<li dir=\"ltr\">\n<p><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">Ask the user at least one question (using the ask block)</span></p>\n</li>\n</ol>\n<div class=\"editor-indent\">\n<ul>\n<li style=\"list-style-type: none;\">\n<ul>\n<li>The <strong>answer to this question </strong>should be used in an IF or IF/ELSE statement so that the user’s response impacts what happens in the story.</li>\n</ul>\n</li>\n</ul>\n</div>\n<p><img src=\"media/web_resources/Uploaded-Media/Interactive-A2-02.PNG\" alt=\"Interactive A2 - 02.PNG\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/242887786\" data-api-returntype=\"File\" loading=\"lazy\"></p>\n<p><strong>Challenge Features</strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Incorporate a second user-input question that is used in a condition</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Using the <strong>ask </strong>block for user-input</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Using the answer block inside an <strong>IF</strong> or<strong> IF/ELSE </strong>blocks<br><br></p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Include some image or costume effects that are applied depending on the user’s input</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p><strong>Outcomes</strong></p>\n<p>CP1, FP3</p>\n\n"
     },
     {
@@ -275,6 +266,14 @@
      "position": 5,
      "published": false,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 5.0</span></div><p>A quiz to check your understanding of the the basics of the Scratch environment.&nbsp; Solve only with your brain!</p><div class=\"qz-questions\">\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Stage</h3>\n<div class=\"qz-qtext\"><div>\n<p><span>Assuming a stage width of<span class=\"Apple-converted-space\">&nbsp;</span></span><span>4</span><span>8</span><span>0</span><span><span class=\"Apple-converted-space\">&nbsp;</span>and a stage height of<span class=\"Apple-converted-space\">&nbsp;</span></span><span>3</span><span>6</span><span>0</span><span>,</span><span> what is the current y-position of Scratch?</span></p>\n<p><span><img src=\"media/web_resources/W01-Q-05-.JPG\" alt=\"\" data-decorative=\"true\" loading=\"lazy\"></span></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> -90</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 90</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 180</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> -180</li>\n</ul>\n</div>\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Stage</h3>\n<div class=\"qz-qtext\"><div>\n<table id=\"questionShellkey-valueTable\" class=\"questionShell key-valueTable\" style=\"height: 81px;\" summary=\"\">\n<tbody>\n<tr style=\"height: 81px;\">\n<td style=\"height: 81px; width: 679.036px;\">\n<div class=\"vtbegenerated inlineVtbegenerated\">\n<p><span>Assuming a stage width of<span class=\"Apple-converted-space\">&nbsp;</span></span><span>4</span><span>8</span><span>0</span><span><span class=\"Apple-converted-space\">&nbsp;</span>and a stage height of<span class=\"Apple-converted-space\">&nbsp;</span></span><span>3</span><span>6</span><span>0</span><span>,</span><span> what is the current y-position of Scratch?</span></p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p><img src=\"media/web_resources/W01-Q-02.JPG\" alt=\"\" data-decorative=\"true\" loading=\"lazy\"></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> 0</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 240</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> -180</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 180</li>\n</ul>\n</div>\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Broadcasts</h3>\n<div class=\"qz-qtext\"><div><p>Predict what will be said (and in what order) by the sprite that has the following scripts (when the green flag is pressed),</p>\n<p><img src=\"media/web_resources/Scratch-Broadcast-Q01b.PNG\" alt=\"\" data-decorative=\"true\" loading=\"lazy\"></p></div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> Go Bears! Go Bears!</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Go Bears! Go Bears! Go Bears!</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Go Go Bears! Go Bears!</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Go Bears!</li>\n</ul>\n</div>\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Broadcasts</h3>\n<div class=\"qz-qtext\"><div>\n<p>When the following scripts are activated, what will be said by the sprite (in the correct order, of course!)</p>\n<p>&nbsp;</p>\n<p><img src=\"media/web_resources/Scratch-Broadcast-Q03.PNG\" alt=\"\" loading=\"lazy\"></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> Tapioca  Lemon  Banana</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Lemon Tapioca Banana</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Tapioca Banana Lemon</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Lemon Banana Tapioca</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Banana Tapioca Lemon</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> Banana Lemon Tapioca</li>\n</ul>\n</div>\n</div>"
+    },
+    {
+     "id": "g950486a827c541cbbff0f8a710f54008",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 1 - Sept 3",
+     "published": true,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1127337218\">https://scratch.mit.edu/projects/1127337218</a><p></p>"
     }
    ]
   },
