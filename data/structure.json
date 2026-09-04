@@ -274,6 +274,22 @@
      "nav_title": "Demo 1 - Sept 3",
      "published": true,
      "content_html": "<a href=\"https://scratch.mit.edu/projects/1127337218\">https://scratch.mit.edu/projects/1127337218</a><p></p>"
+    },
+    {
+     "id": "gbdfbae7866fe49cfbe5a1efb67cd34d8",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 2 - Sept 4",
+     "published": true,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1378135008\">https://scratch.mit.edu/projects/1378135008</a><p></p>"
+    },
+    {
+     "id": "gba5bb81259b04fd5a52fed03624e476c",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 3 - Sept 4",
+     "published": false,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1378139125\">https://scratch.mit.edu/projects/1378139125</a><p></p>"
     }
    ]
   },
