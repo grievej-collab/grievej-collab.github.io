@@ -288,7 +288,7 @@
      "kind": "page",
      "title": "New Page",
      "nav_title": "Demo 3 - Sept 4",
-     "published": false,
+     "published": true,
      "content_html": "<a href=\"https://scratch.mit.edu/projects/1378139125\">https://scratch.mit.edu/projects/1378139125</a><p></p>"
     }
    ]
