@@ -290,6 +290,14 @@
      "nav_title": "Demo 3 - Sept 4",
      "published": true,
      "content_html": "<a href=\"https://scratch.mit.edu/projects/1378139125\">https://scratch.mit.edu/projects/1378139125</a><p></p>"
+    },
+    {
+     "id": "g0c8e156692d14d86b7dd7482a7e31037",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 4 - Sept 8",
+     "published": false,
+     "content_html": "https://scratch.mit.edu/projects/1379180215<p></p>"
     }
    ]
   },
