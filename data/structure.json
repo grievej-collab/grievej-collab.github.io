@@ -166,7 +166,7 @@
      "title": "Broadcasts: Code-Driven Events",
      "nav_title": "Broadcasts: Code-Driven Events",
      "position": 2,
-     "published": false,
+     "published": true,
      "content_html": "<p><iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTC4f3h_jIHjVho5fzK0w4WyRMAMg6pt_AFoMKnBts4vqLBvua6BbgcfkN4BczFYgPj5TgxGNMBY3Nx/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"960\" height=\"569\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -210,7 +210,7 @@
      "kind": "page",
      "title": "New Page",
      "nav_title": "Test Upload",
-     "published": true,
+     "published": false,
      "content_html": "Sept 1&nbsp;<p></p><p>https://scratch.mit.edu/projects/editor/?tutorial=getStarted</p>"
     }
    ]
