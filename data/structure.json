@@ -175,7 +175,7 @@
      "title": "Decision Making and Repeating Structures",
      "nav_title": "Decision Making and Repeating Structures",
      "position": 3,
-     "published": false,
+     "published": true,
      "content_html": "<iframe src=\"https://docs.google.com/presentation/d/1YuTFR_l0MJGR2ZD04QWhsULujAVp0Tmd2RtA2Odv9-g/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>\n\n"
     },
     {
@@ -255,7 +255,7 @@
      "title": "Make an Interactive Short Story",
      "nav_title": "Make an Interactive Short Story",
      "position": 4,
-     "published": false,
+     "published": true,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 5.0</span> &middot; <span class=\"meta-submission\"><strong>Submission type:</strong> online upload</span> &middot; <span class=\"meta-ext\"><strong>Allowed file types:</strong> sb3,zip</span></div><p>To experiment with <i>creating your own events</i> <i>with broadcasts and taking user inpu</i><i>t</i>, create an interactive short story or play. Create characters, experiment with moving sprites around the stage – it’s up to you!</p>\n<p><strong><img src=\"media/web_resources/Uploaded-Media/Interactive-A2-01.PNG\" alt=\"Interactive A2 - 01.PNG\" width=\"708\" height=\"252\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/242887403\" data-api-returntype=\"File\" loading=\"lazy\"><br></strong></p>\n<p><strong>Base Features<br></strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Within your story, you must include the following components:</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">At least one Backdrop</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">At least two characters</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">At least<strong> five broadcast statements</strong></p>\n</li>\n</ul>\n<p><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">Broadcasts must be named appropriately (“bear appears” rather than “message1\")<br><br></span></p>\n</li>\n<li dir=\"ltr\">\n<p><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">Ask the user at least one question (using the ask block)</span></p>\n</li>\n</ol>\n<div class=\"editor-indent\">\n<ul>\n<li style=\"list-style-type: none;\">\n<ul>\n<li>The <strong>answer to this question </strong>should be used in an IF or IF/ELSE statement so that the user’s response impacts what happens in the story.</li>\n</ul>\n</li>\n</ul>\n</div>\n<p><img src=\"media/web_resources/Uploaded-Media/Interactive-A2-02.PNG\" alt=\"Interactive A2 - 02.PNG\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/242887786\" data-api-returntype=\"File\" loading=\"lazy\"></p>\n<p><strong>Challenge Features</strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Incorporate a second user-input question that is used in a condition</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Using the <strong>ask </strong>block for user-input</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Using the answer block inside an <strong>IF</strong> or<strong> IF/ELSE </strong>blocks<br><br></p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Include some image or costume effects that are applied depending on the user’s input</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p><strong>Outcomes</strong></p>\n<p>CP1, FP3</p>\n\n"
     },
     {
