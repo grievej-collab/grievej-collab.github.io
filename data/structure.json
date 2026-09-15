@@ -330,6 +330,14 @@
      "nav_title": "Demo 8 - Sept 14",
      "published": true,
      "content_html": "https://scratch.mit.edu/projects/1381081390<p></p>"
+    },
+    {
+     "id": "gfc5c70f27eaf492f8f372ef8d45c601b",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Practice Quiz 1 : Google Forms",
+     "published": true,
+     "content_html": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSegd9L8gOIGcPhkU-RXiotmzzy2zBb31uw3Y7O_NcMcwRUupA/viewform?usp=publish-editor\">https://docs.google.com/forms/d/e/1FAIpQLSegd9L8gOIGcPhkU-RXiotmzzy2zBb31uw3Y7O_NcMcwRUupA/viewform?usp=publish-editor</a><p></p>"
     }
    ]
   },
