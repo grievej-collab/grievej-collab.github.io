@@ -344,8 +344,24 @@
      "kind": "page",
      "title": "New Page",
      "nav_title": "Demo 9 - Sept 17",
-     "published": false,
+     "published": true,
      "content_html": "<a href=\"https://scratch.mit.edu/projects/1217301680\">https://scratch.mit.edu/projects/1217301680</a><p></p>"
+    },
+    {
+     "id": "g4b01ad51a1564a9e9a3fb5708784f3a8",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 10 - Sept 18",
+     "published": true,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1382263776\">https://scratch.mit.edu/projects/1382263776</a>"
+    },
+    {
+     "id": "g46afac96969648d2b47bf5ffbeefd705",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 11 - Sept 19",
+     "published": true,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1382635331\">https://scratch.mit.edu/projects/1382635331</a><p></p>"
     }
    ]
   },
@@ -354,7 +370,7 @@
    "slug": "05-scratch-02-decision-making-and-repetition",
    "title": "Scratch 02: Decision-Making and Repetition",
    "order": 5,
-   "published": false,
+   "published": true,
    "items": [
     {
      "id": "g46d23a5db0236ffac985e661c5235cb3",
@@ -362,7 +378,7 @@
      "title": "Sheet.png",
      "nav_title": "Costume Demo: Sheet.png",
      "position": 1,
-     "published": false,
+     "published": true,
      "media_path": "media/web_resources/Sheet.png"
     },
     {
@@ -371,7 +387,7 @@
      "title": "Gorilla Sprites.zip",
      "nav_title": "Costume Demo: Gorilla Sprites.zip",
      "position": 2,
-     "published": false,
+     "published": true,
      "media_path": "media/web_resources/Gorilla-Sprites.zip"
     },
     {
@@ -380,7 +396,7 @@
      "title": "itch.io Free Sprite Assets",
      "nav_title": "itch.io Free Sprite Assets",
      "position": 3,
-     "published": false,
+     "published": true,
      "external_url": "https://itch.io/game-assets/free/tag-sprites"
     },
     {
@@ -425,7 +441,7 @@
      "title": "Scratch Quiz Two: Basics, Decisions, and Loops",
      "nav_title": "Scratch Quiz Two: Basics, Decisions, and Loops",
      "position": 8,
-     "published": true,
+     "published": false,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 8.0</span></div><p>A quiz to check our understanding on coordinate systems, broadcast, conditions, and loops.&nbsp;</p><div class=\"qz-questions\">\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Stage</h3>\n<div class=\"qz-qtext\"><div>\n<p><span>Assuming a stage width of 480 and a stage height of 360, what is the current </span><strong>y-position</strong><span> of Scratch?</span></p>\n<p><span><img src=\"media/web_resources/W01-Q-07.JPG\" alt=\"\" loading=\"lazy\"></span></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> 90</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 240</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 0</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> -120</li>\n</ul>\n</div>\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Scratch - Stage</h3>\n<div class=\"qz-qtext\"><div>\n<p><span>Assuming a stage width of 480 and a stage height of 360, what is the current </span><strong>x-position</strong><span> of Scratch?</span></p>\n<p><img src=\"media/web_resources/W01-Q-06.JPG\" alt=\"\" data-decorative=\"true\" loading=\"lazy\"></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> 240</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 480</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> -120</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 0</li>\n</ul>\n</div>\n</div>"
     },
     {
