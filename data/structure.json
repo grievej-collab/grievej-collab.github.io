@@ -184,7 +184,7 @@
      "title": "Variables and Data",
      "nav_title": "Variables and Data",
      "position": 4,
-     "published": false,
+     "published": true,
      "content_html": "<p><iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQbWUm28rIuwCt0nmw1z0nyERg2GbLlaSsi6uoE1bIlUu6kb9hv5I4im4JaQhGPL6qLDSY4NrkPs2r3/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"960\" height=\"569\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -202,7 +202,7 @@
      "title": "Patterns and Pattern Recognition",
      "nav_title": "Patterns and Pattern Recognition",
      "position": 6,
-     "published": false,
+     "published": true,
      "content_html": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQ6LQKnFaMMW2TGtBa4PAkWSAhmEDO2Q3li4FWln0_ig5EVpU13b9eRO3av9QzzRo0Y2R8eIwB54L63/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>\n\n"
     },
     {
@@ -477,7 +477,7 @@
    "slug": "06-scratch-03-variables",
    "title": "Scratch 03: Variables",
    "order": 6,
-   "published": false,
+   "published": true,
    "items": [
     {
      "id": "g2aeb170361fa163c3ccbf285f5b78c6f",
@@ -485,7 +485,7 @@
      "title": "Exercise: Programmable Robot",
      "nav_title": "Exercise: Programmable Robot",
      "position": 1,
-     "published": true,
+     "published": false,
      "external_url": "https://docs.google.com/presentation/d/e/2PACX-1vS40EeeXwmWbXSFXJATfFJK9uktAz1YD2m398sT4bWj-h8cvc747KpCeo9t9fBvG57PhMV4u1estFLr/pub?start=false&loop=false&delayms=3000&slide=id.p"
     },
     {
@@ -494,7 +494,7 @@
      "title": "Variables and Data.pptx",
      "nav_title": "Variables and Data.pptx",
      "position": 2,
-     "published": false,
+     "published": true,
      "media_path": "media/web_resources/Variables-and-Data.pptx"
     },
     {
@@ -512,7 +512,7 @@
      "title": "Math Grapher",
      "nav_title": "Math Grapher",
      "position": 4,
-     "published": true,
+     "published": false,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 10.0</span> &middot; <span class=\"meta-submission\"><strong>Submission type:</strong> online upload</span> &middot; <span class=\"meta-ext\"><strong>Allowed file types:</strong> sb3</span></div><p><span style=\"font-size: 18pt;\"><strong>Slope of a Line:</strong></span></p>\n<p>The slope of a line tells us whether it is rising or falling, as well as how steep it is.<br><img src=\"media/web_resources/Uploaded-Media/Scratch-A01-I06.jpg\" alt=\"Scratch - A01 - I06.jpg\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245750092\" data-api-returntype=\"File\" loading=\"lazy\"></p>\n<p><em>To complete this project, you’ll need to be able to calculate the slope of a line. Hopefully, this is a familiar operation, but if you’d like a refresher please check out the following video:</em></p>\n<p><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/WkspBxrzuZo?si=g4hvjnL0KnfQWpUc\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" loading=\"lazy\"></iframe></p>\n<p><br><br><br><span style=\"font-size: 18pt;\"><strong>Adding the Pen Extension:</strong></span><strong></strong></p>\n<p>For this project, you’ll need to add the pen extension as you did earlier.<br><br><img src=\"media/web_resources/Uploaded-Media/Scratch-A-Extensions.png\" alt=\"Scratch - A - Extensions.png\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245750145\" data-api-returntype=\"File\" loading=\"lazy\"><br><span><em>To add an extension, first, find the “add extension” button in the bottom left corner.</em></span></p>\n<p><span><em><br><img src=\"media/web_resources/Uploaded-Media/Scratch-A1-Pen-Extension.png\" alt=\"Scratch - A1 - Pen Extension.png\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245750206\" data-api-returntype=\"File\" loading=\"lazy\"><br>Then choose the extension called “pen”.</em></span><em></em></p>\n<p><br><br><br><span style=\"font-size: 18pt;\"><strong>Base Features Requirements&nbsp;</strong></span></p>\n<ol style=\"list-style-type: decimal;\">\n<li>Create a program that begins by asking the user for <strong>4 inputs</strong>, and stores each in its own <strong>variable:</strong>\n<ul style=\"list-style-type: disc;\">\n<li>A X-value for the first point of a line segment</li>\n<li>A Y-value for the first point of a line segment</li>\n<li>A X-value for the second point of a line segment</li>\n<li>A Y-value for the second point of a line segment<br><br>\n</li>\n</ul>\n</li>\n<li>Once this data has been stored, have a sprite (which can be visible&nbsp;<strong>or</strong> invisible) draw that particular line segment on the screen using the&nbsp;<strong>pen blocks.</strong><br><br>\n</li>\n<li>Given the line drawn,&nbsp;<strong>calculate the slope of this line</strong> and store it in a variable.<br><br>\n</li>\n<li>Have your sprite report what the line's slope is for&nbsp;<strong>2 seconds.</strong>\n<ul style=\"list-style-type: disc;\">\n<li>If you've used the <strong>hide block</strong>, the say block won't show up on the stage!</li>\n<li>At this point, either make sure to&nbsp;<strong>show</strong> the sprite, or use <strong>set ghost effect to 100</strong> instead; this hides the sprite but still allows text to be displayed.<br><br>\n</li>\n</ul>\n</li>\n<li>At this point, the base features are complete!<br><br><br><br>\n</li>\n</ol>\n<p><span style=\"font-size: 18pt;\"><strong>Challenge Features Requirements&nbsp;</strong></span><em> (Parallelogram Area Calculator)<br><br></em>A <strong>Parallelogram </strong>can be created with <span style=\"text-decoration: underline;\">two sets of lines</span> that are <span style=\"text-decoration: underline;\">parallel to each other</span>. Expand the program above to add a horizontal line to both endpoints of the user’s original line segment. Then, add a copy of the original line segment to the end of these horizontal segments to complete a parallelogram. Lastly, report the area of this closed shape. Some additional explanation is below:<em><br></em></p>\n<ol style=\"list-style-type: decimal;\">\n<li><span>Draw Original Line Segment - If you've completed the <strong>base features</strong> then this is already done! See more details up there...<br><br></span></li>\n<li><span>Ask the user for a horizontal distance - store this value in a variable, then use it to draw two horizontal lines attached to each endpoint of the original line segment:<br><img src=\"media/web_resources/Uploaded-Media/Scratch-WO3-A02-I02.PNG\" alt=\"Scratch- WO3 - A02 - I02.PNG\" width=\"447\" height=\"215\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245751296\" data-api-returntype=\"File\" loading=\"lazy\"><br><br></span></li>\n<li><span>Using that value, draw two horizontal lines segments of that length from each of the two existing endpoints (Remember, you should have these (x,y) locations stored in variables already)<br><img src=\"media/web_resources/Uploaded-Media/Scratch-WO3-A02-I03.PNG\" alt=\"Scratch- WO3 - A02 - I03.PNG\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245751365\" data-api-returntype=\"File\" loading=\"lazy\"><br><br></span></li>\n<li><span>To finish the parallelogram, draw a line segment with the same length and slope as the first, but starting and ending at the free horizontal endpoints. (Note: the sprite that is enacting these scripts can be visible or hidden while drawing)<br><img src=\"media/web_resources/Uploaded-Media/Scratch-WO3-A02-I04a.PNG\" alt=\"Scratch- WO3 - A02 - I04a.PNG\" width=\"307\" height=\"149\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245752229\" data-api-returntype=\"File\" loading=\"lazy\"> &nbsp;<img src=\"media/web_resources/Uploaded-Media/CSCR-WO3-A02-I04b.PNG\" alt=\"CSCR - WO3 - A02 - I04b.PNG\" width=\"298\" height=\"130\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245752232\" data-api-returntype=\"File\" loading=\"lazy\"><br><br></span></li>\n<li><span>Once the shape has been drawn, calculate what the area of the parallelogram is. If you don’t have the formula memorized (I didn’t!), you may need to do an internet search to find it. It is very readily available. Calculate the area and store it in an appropriately-named variable.<br><br></span></li>\n<li><span>Lastly, have the sprite report what the area is. The sprite will need to be visible at this point in order for its speech bubble to be visible as well.<br><img src=\"media/web_resources/Uploaded-Media/Scratch-WO3-A02-I05.PNG\" alt=\"Scratch - WO3 - A02 - I05.PNG\" data-api-endpoint=\"https://canvas.instructure.com/api/v1/courses/8596367/files/245752341\" data-api-returntype=\"File\" loading=\"lazy\"><br></span></li>\n</ol>\n\n"
     },
     {
