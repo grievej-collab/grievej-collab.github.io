@@ -423,7 +423,7 @@
      "title": "Practice Quiz Two:  Basics, Decisions, and Loops",
      "nav_title": "Practice Quiz Two:  Basics, Decisions, and Loops",
      "position": 6,
-     "published": false,
+     "published": true,
      "content_html": "<div class=\"item-meta\"><span class=\"meta-points\"><strong>Points:</strong> 4.0</span></div><p>Use this practice quiz to test your understanding of the introductory ideas as well as <strong>conditional statements</strong> and <strong>looping structures.</strong></p><div class=\"qz-questions\">\n<div class=\"qz-question\"><h3 class=\"qz-qtitle\">Stage - Location</h3>\n<div class=\"qz-qtext\"><div>\n<p><span>Assuming a stage width of </span><span>4</span><span>8</span><span>0</span><span> and a stage height of </span><span>3</span><span>6</span><span>0</span><span>,</span><span> what is the current x-p<a class=\"instructure_file_link instructure_image_thumbnail\" title=\"W01 - Q - 08.JPG\" href=\"media/web_resources/W01-Q-08.JPG\">o</a>sition of Scratch?</span></p>\n<p><span><img src=\"media/web_resources/W01-Q-08-1.JPG\" alt=\"\" data-decorative=\"true\" loading=\"lazy\"></span></p>\n</div></div>\n<ul class=\"qz-choices\">\n<li class=\"qz-choice qz-correct\"><span class=\"qz-mark\">&#10003;</span> -240</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 120</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> -120</li>\n<li class=\"qz-choice\"><span class=\"qz-mark\"></span> 240</li>\n</ul>\n</div>\n</div>"
     },
     {
@@ -469,6 +469,14 @@
      "nav_title": "Demo 12 - Sept 22",
      "published": true,
      "content_html": "<a href=\"https://scratch.mit.edu/projects/1383412415\">https://scratch.mit.edu/projects/1383412415</a><p></p>"
+    },
+    {
+     "id": "gf3c7a1f001674eadbafb3050409f5626",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Robot Problem",
+     "published": true,
+     "content_html": "<a href=\"https://docs.google.com/presentation/d/e/2PACX-1vS40EeeXwmWbXSFXJATfFJK9uktAz1YD2m398sT4bWj-h8cvc747KpCeo9t9fBvG57PhMV4u1estFLr/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g26a271a4aae_0_10\">https://docs.google.com/presentation/d/e/2PACX-1vS40EeeXwmWbXSFXJATfFJK9uktAz1YD2m398sT4bWj-h8cvc747KpCeo9t9fBvG57PhMV4u1estFLr/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g26a271a4aae_0_10</a><p></p>"
     }
    ]
   },
