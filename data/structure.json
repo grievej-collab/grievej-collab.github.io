@@ -193,7 +193,7 @@
      "title": "Flow Charts",
      "nav_title": "Flow Charts",
      "position": 5,
-     "published": false,
+     "published": true,
      "content_html": "<p><iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vS-7HBBDjWRoZrNsJVhiI6aMYxX1BnA4aeMcUyeugLn5svZFzrOYYbJYjQDg0qKssxdZOwnrcm1fZbp/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"960\" height=\"569\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -535,7 +535,7 @@
      "title": "Flow Charts + Pair Programming Challenge",
      "nav_title": "Flow Charts + Pair Programming Challenge",
      "position": 3,
-     "published": false,
+     "published": true,
      "content_html": "<p><iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vS-7HBBDjWRoZrNsJVhiI6aMYxX1BnA4aeMcUyeugLn5svZFzrOYYbJYjQDg0qKssxdZOwnrcm1fZbp/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"960\" height=\"569\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" loading=\"lazy\"></iframe></p>\n\n"
     },
     {
@@ -598,7 +598,7 @@
      "title": "Patterns and Pattern Recognition.pptx",
      "nav_title": "Patterns and Pattern Recognition.pptx",
      "position": 10,
-     "published": false,
+     "published": true,
      "media_path": "media/web_resources/Patterns-and-Pattern-Recognition.pptx"
     }
    ]
