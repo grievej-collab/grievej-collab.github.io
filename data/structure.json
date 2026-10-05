@@ -501,6 +501,14 @@
      "nav_title": "Practice Quiz Two: Basics, Decisions, and Loops",
      "published": true,
      "content_html": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeGvueo04GhbL22ezHzRvNXaUkDCFXWEZUat3Mf3ymOf15g-g/viewform?usp=publish-editor\">https://docs.google.com/forms/d/e/1FAIpQLSeGvueo04GhbL22ezHzRvNXaUkDCFXWEZUat3Mf3ymOf15g-g/viewform?usp=publish-editor</a><p></p>"
+    },
+    {
+     "id": "gf87e428bb1af469aba0fc78ffb45bacf",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Quiz 2",
+     "published": true,
+     "content_html": "https://docs.google.com/forms/d/e/1FAIpQLSfFF1tUfZfUoULWMyJWriiyCL-Lyk91IRcYdboE7hLMZCFpvw/viewform?usp=dialog"
     }
    ]
   },
@@ -608,7 +616,7 @@
    "slug": "07-scratch-04-major-project",
    "title": "Scratch 04: Major Project",
    "order": 7,
-   "published": false,
+   "published": true,
    "items": [
     {
      "id": "divider-07-scratch-04-major-project-1",
