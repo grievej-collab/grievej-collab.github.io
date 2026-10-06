@@ -608,6 +608,30 @@
      "position": 10,
      "published": true,
      "media_path": "media/web_resources/Patterns-and-Pattern-Recognition.pptx"
+    },
+    {
+     "id": "g95604f97c5a5489eaf58060fde3a1563",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 15 - Oct 1",
+     "published": true,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1387124243\">https://scratch.mit.edu/projects/1387124243</a><p></p>"
+    },
+    {
+     "id": "gf18d93071b5b48cab95e6ec2d16090f7",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 16 - Oct 5",
+     "published": true,
+     "content_html": "https://scratch.mit.edu/projects/1388350777<p></p>"
+    },
+    {
+     "id": "gf46f4fbf852947019e847f108081119b",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 17 - Oct 6",
+     "published": false,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1388771072\">https://scratch.mit.edu/projects/1388771072</a><p></p>"
     }
    ]
   },
