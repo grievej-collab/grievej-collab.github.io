@@ -632,6 +632,22 @@
      "nav_title": "Demo 17 - Oct 6",
      "published": true,
      "content_html": "<a href=\"https://scratch.mit.edu/projects/1388771072\">https://scratch.mit.edu/projects/1388771072</a><p></p>"
+    },
+    {
+     "id": "g85c2165ab3c3405296a7bca58908e4c9",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 18 - Oct 7",
+     "published": true,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1389196337\">https://scratch.mit.edu/projects/1389196337</a><p></p>"
+    },
+    {
+     "id": "g54325f5fa03449a6aeeaf2d9dd9a0d3d",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Demo 19 - Oct 17",
+     "published": false,
+     "content_html": "<a href=\"https://scratch.mit.edu/projects/1389205410\">https://scratch.mit.edu/projects/1389205410</a>"
     }
    ]
   },
