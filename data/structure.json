@@ -53,6 +53,14 @@
      "position": 5,
      "published": true,
      "content_html": "<p><span style=\"font-size: 18pt;\"><strong>If you've never used Canvas</strong>, go here:</span><br><span style=\"font-size: 18pt;\">canvaslite.instructure.com/register</span><br><span style=\"font-size: 18pt;\">join code:&nbsp;</span><strong style=\"font-weight: bold; color: rgb(39, 53, 64); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 24px;\">JHEPA6</strong></p>\n<p><span style=\"font-size: 18pt;\">&nbsp;</span></p>\n<p><span style=\"font-size: 18pt;\"><strong>If you already have an account, sign in, then go here:</strong></span><br><br></p>\n<p><strong style=\"font-weight: bold; color: rgb(39, 53, 64); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 24px;\"><a href=\"https://canvaslite.instructure.com/enroll/JHEPA6\" target=\"_blank\" rel=\"noopener\" style=\"color: rgb(14, 104, 179);\">https://canvaslite.instructure.com/enroll/JHEPA6</a></strong></p>\n<p>&nbsp;</p>\n\n"
+    },
+    {
+     "id": "gba8a4a51b47f468596be711541a1c937",
+     "kind": "page",
+     "title": "New Page",
+     "nav_title": "Login Canvas",
+     "published": true,
+     "content_html": "<a href=\"canvaslite.instructure.com\">canvaslite.instructure.com</a><p></p>"
     }
    ]
   },
